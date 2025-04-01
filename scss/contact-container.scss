@@ -1,0 +1,74 @@
+.contact-container{
+    width: 100%;
+    margin-top: 40px;
+    // background-color: gold;
+    display: flex;
+    margin-bottom: 100px;
+
+    .address{
+        width:400px;
+        // margin-top: 40px;
+        // background-color: rosybrown;
+
+        .map{
+            width: 400px;
+            height: 442px;
+
+        }
+
+        .text{
+            margin-top: 20px;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: lighter;
+        }
+    }
+
+    .contact-boxes{
+        width: 540px;
+        margin-left: 40px;
+        // background-color: lightsalmon;
+
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+            height: 60px;
+            border: none;
+            background-color: #F5F5F5;
+
+        }
+        
+        button{
+            width: 170px;
+            height: 60px;
+            background-color: #79ADDC;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            color: white;
+            border: none;
+
+    }
+
+}
+}
+
+@media all and (max-width: 676px){
+    .contact-container{
+        flex-direction: column;
+    
+    .address{
+        .text{
+            text-align: center;
+        }
+    }
+
+    .contact-boxes{
+        margin-top: 40px;
+        width: fit-content;
+        margin-left: 0;
+
+    }
+
+
+    }
+}
